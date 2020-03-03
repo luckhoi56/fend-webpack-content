@@ -9,7 +9,7 @@ app.use(express.static('src/dist'))
 console.log(__dirname)
 
 app.get('/', function (req, res) {
-    res.sendFile('/dist/index.html')
+    res.sendFile('/Users/ericluc/Desktop/Udacity/webPack/fend-webpack-content/dist/index.html')
 })
 
 // designates what port the app will listen to for incoming requests
